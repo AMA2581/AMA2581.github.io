@@ -1,13 +1,16 @@
 html {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #282c32;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   /* background-color: #60a9ff; */
   background-image: linear-gradient(130deg, #60a9ff, #d187ff);
   background-size: 100%;
@@ -19,24 +22,63 @@ h1, h2, h3, h4 {
 
 p {
   color: #eeeff4;
+  font-size: 1.2em;
+  word-spacing: 0.15em;
+  font-weight: lighter;
 }
 
 img {
-    max-width: 45%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 2px 2px 30px #0f0f0f;
+  max-width: 45%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px #0f0f0f;
+  object-fit: cover;
 }
 
 .overview {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.first-section{
-    display: flex;
+.first-section {
+  display: flex;
+  
 }
 
+.sections {
+  margin: 35px 0;
+}
 
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.items {
+  /* border-radius: 10px;
+  box-shadow: inset -5px -5px 4px #383c40, inset 5px 5px 4px #24262a; */
+  margin: 0 5px;
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.third-items{
+  border-radius: 10px;
+  box-shadow: inset -5px -5px 4px #383c40, inset 5px 5px 4px #24262a;
+  margin: 0 5px;
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.portfolio-thumbnails{
+  height: 250px;
+  width: 100%;
+  max-width: none;
+  box-shadow: none;
+}
